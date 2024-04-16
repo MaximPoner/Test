@@ -1,0 +1,21 @@
+﻿<Window x:Class="Test.addNewWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Test"
+        mc:Ignorable="d"
+        Title="addNewWin" Height="450" Width="800">
+    <Grid>
+        <TextBlock x:Name="jmeno" TextWrapping="Wrap" Text="" Margin="280,74,156,337"/>
+        <TextBlock x:Name="prijmeni" TextWrapping="Wrap" Text="" Margin="280,110,156,301"/>
+        <TextBlock x:Name="id" TextWrapping="Wrap" Text="" Margin="280,146,156,265"/>
+        <DatePicker x:Name="datumNarozeni" HorizontalAlignment="Left" Height="28" Margin="280,179,0,0" VerticalAlignment="Top" Width="364"/>
+        <Label Content="Jméno" HorizontalAlignment="Left" Height="23" Margin="132,74,0,0" VerticalAlignment="Top" Width="119"/>
+        <Label Content="Příjmení" HorizontalAlignment="Left" Height="23" Margin="132,110,0,0" VerticalAlignment="Top" Width="119"/>
+        <Label Content="ID" HorizontalAlignment="Left" Height="23" Margin="132,146,0,0" VerticalAlignment="Top" Width="119"/>
+        <Label Content="Datum Narození" HorizontalAlignment="Left" Height="23" Margin="132,182,0,0" VerticalAlignment="Top" Width="119"/>
+        <Button x:Name="add" Content="Přidat" HorizontalAlignment="Left" Height="23" Margin="132,259,0,0" VerticalAlignment="Top" Width="120" Click="add_Click"/>
+
+    </Grid>
+</Window>
